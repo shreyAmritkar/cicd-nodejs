@@ -39,6 +39,6 @@ jobs:
                 username: ${{ secrets.EC2_USER }}
                 key: ${{ secrets.EC2_SSH_PRIVATE_KEY }}
                 script: |
-                    cd /home/ubuntu/CICD-NodeJs-App
+                    cd /home/ubuntu/test-cicd-node.pem
 
                     docker compose down
